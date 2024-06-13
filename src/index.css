@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    img {
+        @apply w-full
+    }
+
+    .section {
+        @apply container mx-auto py-24 px-6 
+    }
+    .animate-slide:hover {
+        animation-play-state: paused;
+    }
+    .sidebar-container{
+        @apply bg-glass h-[96%] w-full rounded-3xl p-4 border border-solid border-glass relative
+    }
+
+    .sidebar{
+        @apply flex items-center mt-2 p-4 rounded-lg cursor-pointer text-base hover:bg-white transition-all duration-300
+    }
+}

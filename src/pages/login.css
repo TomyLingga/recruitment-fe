@@ -1,0 +1,11 @@
+.bgImgs{
+    background-image: url('https://inl.co.id/wp-content/uploads/2021/06/pabrik-3.jpg'); 
+    height:100vh; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.bgRegister{
+    background-color: #EBEDEF;
+    height:100vh; 
+}
